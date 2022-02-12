@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Karla:200,300,400,500,600,700,800,900&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+main.landing {
+    height: 100vh;
+    width: 100vw;
+    background: #034732;
+    color: #F8F1FF;
+    font-family: 'Karla';
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 100px;
+}
+
+h1, h3 {
+    font-weight: 300;
+}
+
+h3 {
+    padding-bottom: 20px;
+    font-weight: 100;
+}
+
+section.greet {
+    width: 60%;
+}
+
+
+
+@keyframes bounce{
+	from { transform: translate3d(0, 0, 0);}
+	to { transform: translate3d(0, 25px, 0);}
+}
+
+
+i.fa-arrow-down {
+    position: absolute;
+    bottom: 30px;
+    font-size: 20px;
+    -webkit-animation-name: bounce; 
+   animation-name: bounce; 
+   -webkit-animation-duration: 0.8s;
+   animation-duration: 0.8s; 
+   animation-direction: alternate; 
+    animation-iteration-count: infinite;
+}
+
+
+
+
